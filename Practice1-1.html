@@ -8,9 +8,50 @@
 
 <body bgcolor="#408b99">
    <div>
-      <center><big><h1>Формочка для додавання викладача</h1></big><hr></center>
-
+      <big><h1>Формочка для додавання викладача</h1></big><hr>
+      <br> <br>
    </div>
+   <form>
+      Ім'я: <input type = "text"  name = "firstname" placeholder="Михайло" required/> <br> <br>
+      Прізвище: <input type = "text" name = "lastname" placeholder="Тарасенко" required/> <br> <br>
+      По батькові: <input type = "text" name = "surname" placeholder="Сергійович" required/> <br> <br>
+      Чоловік <input  type = "radio" name = "sex" value =  "male" checked/>
+      Жінка <input type = "radio" name = "sex" value =  "female"/> <br> <br>
+      Дата народження: <input type="date" id="date" name="date" required/> <br> <br>
+      E-mail: <input type="email" name="email" placeholder="example@gmail.com" required/> <br> <br>
+      Номер телефону: <input type="tel" name="tel" placeholder="067-920-3536" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/> <br> <br>
+      Бажаний колір фону: <input type="color" name="color"/> <br> <br>
+      <select name="country">
+         <option disabled="disabled" selected="selected">Країна</option>
+         <option>Австралія</option>
+         <option>Австрія</option>
+         <option>Бельгія</option>
+         <option>Велика Британія</option>
+         <option>Данія</option>
+         <option>Канада</option>
+         <option>Литва</option>
+         <option>Німеччина</option>
+         <option>Польща</option>
+         <option>Сполучені Штати Америки</option>
+         <option>Україна</option>
+      </select> <br> <br>
+      <select name="city">
+         <option disabled="disabled" selected="selected">Місто</option>
+         <option>Київ</option>
+         <option>Харків</option>
+         <option>Дніпро</option>
+         <option>Одеса</option>
+         <option>Донецьк</option>
+         <option>Запоріжжя</option>
+         <option>Львів</option>
+         <option>Кривий Ріг</option>
+         <option>Полтава</option>
+         <option>Житомир</option>
+         <option>Кременчук</option>
+      </select> <br> <br>
+      <input type = "submit" name = "submit" value = "Відправити"/>
+      
+   </form>
 </body>
 
 </html>

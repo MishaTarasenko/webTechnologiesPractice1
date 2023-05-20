@@ -11,16 +11,15 @@
       <br> <br>
    </div>
    <form>
-      Ім'я: <input type="text" id="firstname" name="firstname" placeholder="Михайло" required/> <br> <br>
-      Прізвище: <input type="text" id="lastname" name="lastname" placeholder="Тарасенко" required/> <br> <br>
-      По батькові: <input type="text" id="surname" name="surname" placeholder="Сергійович" required/> <br> <br>
-      Чоловік <input  type="radio" id="maleSex" name="sex" value="male" checked/>
-      Жінка <input type="radio" id="femaleSex" name="sex" value="female"/> <br> <br>
-      Дата народження: <input type="date" id="date" name="date" required/> <br> <br>
-      E-mail: <input type="email" id="email" name="email" placeholder="example@gmail.com" required/> <br> <br>
-      Номер телефону: <input type="tel" id="telephone" name="tel" placeholder="067-920-3536" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/> <br> <br>
-      Бажаний колір фону: <input type="color" id="bgcolor" name="color"/> <br> <br>
-      <select name="country" id="country">
+      <section>Ім'я: <input type="text" id="firstname" name="firstname" placeholder="Михайло" required/></section>
+      <section>Прізвище: <input type="text" id="lastname" name="lastname" placeholder="Тарасенко" required/></section>
+      <section>По батькові: <input type="text" id="surname" name="surname" placeholder="Сергійович" required/></section>
+      <section>Чоловік <input  type="radio" id="maleSex" name="sex" value="male" checked/> Жінка <input type="radio" id="femaleSex" name="sex" value="female"/></section>
+      <section>Дата народження: <input type="date" id="date" name="date" required/></section>
+      <section>E-mail: <input type="email" id="email" name="email" placeholder="example@gmail.com" required/></section>
+      <section>Номер телефону: <input type="tel" id="telephone" name="tel" placeholder="067-920-3536" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/></section>
+      <section> Бажаний колір фону: <input type="color" id="bgcolor" name="color"/></section>
+      <section><select name="country" id="country">
          <option disabled="disabled" selected="selected">Країна</option>
          <option>Австралія</option>
          <option>Австрія</option>
@@ -33,8 +32,8 @@
          <option>Польща</option>
          <option>Сполучені Штати Америки</option>
          <option>Україна</option>
-      </select> <br> <br>
-      <select name="city" id="city">
+      </select></section>
+      <section><select name="city" id="city">
          <option disabled="disabled" selected="selected">Місто</option>
          <option>Київ</option>
          <option>Харків</option>
@@ -47,8 +46,8 @@
          <option>Полтава</option>
          <option>Житомир</option>
          <option>Кременчук</option>
-      </select> <br> <br>
-      <textarea id="comment" placeholder="Коментар до викладача"></textarea> <br> <br>
+      </select></section>
+      <section><textarea id="comment" placeholder="Коментар до викладача"></textarea></section>
       <input type = "submit" name = "submit" value = "Відправити"/>
    </form>
 </body>
